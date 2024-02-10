@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Dashboard from "./components/Dashboard";
 
 function App() {
-
   return (
     <>
-     <h1 className='text-xl font-bold text-red-500'>Hello Tailwindcss</h1>
+      <Dashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
