@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "./Search";
 Search;
+import ThemeIcon from "./ThemeIcon";
 
 const Header = ({ name }) => {
   return (
@@ -9,6 +10,7 @@ const Header = ({ name }) => {
         <h1 className="text-5xl">{name}</h1>
         <Search />
       </div>
+      <ThemeIcon />
     </>
   );
 };
