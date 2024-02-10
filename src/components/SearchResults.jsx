@@ -2,9 +2,12 @@ import React from "react";
 import { mockSearchResults } from "../constants/mock";
 import ThemeContext from "../context/ThemeContext";
 import { useContext } from "react";
+import StockContext from "../context/StockContext";
 
 const SearchResults = ({ result }) => {
   const { darkMode } = useContext(ThemeContext);
+
+  const { setStockSymbol } = useContext(StockContext);
 
   return (
     <ul
