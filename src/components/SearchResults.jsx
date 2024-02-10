@@ -1,5 +1,4 @@
 import React from "react";
-import { mockSearchResults } from "../constants/mock";
 import ThemeContext from "../context/ThemeContext";
 import { useContext } from "react";
 import StockContext from "../context/StockContext";
