@@ -1,6 +1,7 @@
 import React from "react";
 import { mockSearchResults } from "../constants/mock";
 import ThemeContext from "../context/ThemeContext";
+import { useContext } from "react";
 
 const SearchResults = ({ result }) => {
   const { darkMode } = useContext(ThemeContext);
